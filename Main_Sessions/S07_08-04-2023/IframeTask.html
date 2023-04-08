@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: lightgoldenrodyellow;
+      }
+      #container {
+        display: flex;
+        margin-top: 50px;
+        background-color: white;
+        width: 100%;
+        height: 500px;
+        box-shadow: 0 0 10px black;
+      }
+      #leftDiv {
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 20%;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 21px;
+      }
+      #rightDiv {
+        width: 80%;
+        padding: 30px;
+      }
+      #iframeStyle {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="leftDiv">
+        <a href="Electronic.html" target="myframe">Electronics</a>
+        <a href="Jewellery.html" target="myframe">Jewellery</a>
+        <a href="Mens.html" target="myframe">MensWearing</a>
+        <a href="Womens.html" target="myframe">WomensWearing</a>
+      </div>
+
+      <div id="rightDiv">
+        <iframe src="Electronic.html" id="iframeStyle" name="myframe"> </iframe>
+      </div>
+    </div>
+  </body>
+</html>
