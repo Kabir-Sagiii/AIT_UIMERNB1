@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      #container {
+        width: 500px;
+        margin: 30px auto;
+        box-shadow: 0 0 10px black;
+        text-align: center;
+        padding: 20px;
+      }
+      table {
+        width: 80%;
+        margin: auto;
+      }
+      input {
+        width: 100%;
+      }
+      select {
+        width: 70%;
+      }
+      #submit {
+        width: 50%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h2>Registration Page</h2>
+      <form>
+        <table cellspacing="10px">
+          <tr>
+            <th>
+              <input type="text" placeholder="First Name" />
+            </th>
+            <th>
+              <input type="text" placeholder="Last Name" />
+            </th>
+          </tr>
+
+          <tr>
+            <th colspan="2">
+              <input type="password" placeholder="Create Password" />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2">
+              <input type="email" placeholder="Email Id" />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2">
+              <textarea rows="7" cols="55"> </textarea>
+            </th>
+          </tr>
+          <tr>
+            <th><input type="radio" name="gender" value="male" />Male</th>
+            <th><input type="radio" name="gender" value="female" />Female</th>
+          </tr>
+          <tr>
+            <th colspan="2">
+              <select>
+                <option>Select City</option>
+                <option>Hyderabad</option>
+                <option>Pune</option>
+                <option>Banglore</option>
+                <option>Delhi</option>
+                <option>Chennai</option>
+              </select>
+            </th>
+          </tr>
+
+          <tr>
+            <th colspan="2">
+              <input type="checkbox" />HTML <input type="checkbox" />CSS
+            </th>
+          </tr>
+        </table>
+        <div id="submit"><input type="submit" value="Register" /></div>
+      </form>
+    </div>
+  </body>
+</html>
