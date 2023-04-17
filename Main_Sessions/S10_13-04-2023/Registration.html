@@ -3,20 +3,26 @@
   <head>
     <title>Document</title>
     <style>
+      body {
+        background-color: lightblue;
+      }
       #container {
+        background-color: white;
         width: 500px;
         margin: 30px auto;
         box-shadow: 0 0 10px black;
         text-align: center;
         padding: 20px;
       }
-      table {
+      table,
+      tr {
         width: 80%;
         margin: auto;
       }
-      input {
-        width: 100%;
-      }
+
+      /* input {
+        width: 90%;
+      } */
       select {
         width: 70%;
       }
@@ -33,21 +39,21 @@
         <table cellspacing="10px">
           <tr>
             <th>
-              <input type="text" placeholder="First Name" />
+              <input type="text" size="26" placeholder="First Name" />
             </th>
             <th>
-              <input type="text" placeholder="Last Name" />
+              <input type="text" size="26" placeholder="Last Name" />
             </th>
           </tr>
 
           <tr>
             <th colspan="2">
-              <input type="password" placeholder="Create Password" />
+              <input type="password" size="60" placeholder="Create Password" />
             </th>
           </tr>
           <tr>
             <th colspan="2">
-              <input type="email" placeholder="Email Id" />
+              <input size="60" type="email" placeholder="Email Id" />
             </th>
           </tr>
           <tr>
@@ -56,8 +62,10 @@
             </th>
           </tr>
           <tr>
-            <th><input type="radio" name="gender" value="male" />Male</th>
-            <th><input type="radio" name="gender" value="female" />Female</th>
+            <th colspan="2">
+              <input type="radio" name="gender" value="male" />Male
+              <input type="radio" name="gender" value="female" />Female
+            </th>
           </tr>
           <tr>
             <th colspan="2">
@@ -75,10 +83,13 @@
           <tr>
             <th colspan="2">
               <input type="checkbox" />HTML <input type="checkbox" />CSS
+              <input type="checkbox" />Javascript <input type="checkbox" />React
             </th>
           </tr>
         </table>
-        <div id="submit"><input type="submit" value="Register" /></div>
+        <div id="submit">
+          <input type="submit" value="Register" />
+        </div>
       </form>
     </div>
   </body>
