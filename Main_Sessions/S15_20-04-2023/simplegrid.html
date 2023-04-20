@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #container {
+        width: 1000px;
+        height: 400px;
+        border: 2px solid red;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr; /*  1- 5 */
+        grid-template-rows: 50px 300px 50px; /* 1-4  */
+      }
+      .box {
+        color: white;
+        border: 2px solid green;
+        font-size: 20px;
+        text-align: center;
+      }
+      .box1 {
+        background-color: darkgreen;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+      }
+      .box2 {
+        background-color: darkred;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+      }
+      .box3 {
+        background-color: darkorchid;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+      }
+      .box4 {
+        background-color: darkgrey;
+      }
+      .box5 {
+        background-color: darkorange;
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 4;
+      }
+      .box6 {
+        background-color: rgb(45, 34, 8);
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="box box1">Box 1</div>
+      <div class="box box2">Box 2</div>
+      <div class="box box3">Box 3</div>
+      <div class="box box4">Box 4</div>
+      <div class="box box5">Box 5</div>
+      <div class="box box6">Box 6</div>
+    </div>
+  </body>
+</html>

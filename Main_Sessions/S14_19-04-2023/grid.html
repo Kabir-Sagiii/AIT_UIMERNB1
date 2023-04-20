@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Grid Document</title>
+    <style>
+      #container {
+        width: 1000px;
+        height: 400px;
+        /* border: 2px solid red; */
+        display: grid;
+        /* grid-template-columns: 200px 300px 300px 200px; */
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        grid-template-columns: repeat(2, 300px);
+
+        grid-template-rows: 100px 200px 100px;
+      }
+      .box {
+        color: white;
+        border: 2px solid green;
+        font-size: 20px;
+        text-align: center;
+      }
+      .box1 {
+        background-color: darkgreen;
+      }
+      .box2 {
+        background-color: darkred;
+      }
+      .box3 {
+        background-color: darkorchid;
+      }
+      .box4 {
+        background-color: darkgrey;
+      }
+      .box5 {
+        background-color: darkorange;
+      }
+      .box6 {
+        background-color: rgb(45, 34, 8);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="box box1">Box 1</div>
+      <div class="box box2">Box 2</div>
+      <div class="box box3">Box 3</div>
+      <div class="box box4">Box 4</div>
+      <div class="box box5">Box 5</div>
+      <div class="box box6">Box 6</div>
+    </div>
+
+    <!-- <div id="container">
+      <img
+        src="https://media.croma.com/image/upload/v1662703474/Croma%20Assets/Communication/Mobiles/Images/261954_v8v1i1.png"
+        width="500"
+        height="400"
+      />
+      <img
+        src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-14-pro-max-colors.png"
+        width="500"
+        height="400"
+      />
+      <img
+        src="https://media.croma.com/image/upload/v1662703474/Croma%20Assets/Communication/Mobiles/Images/261954_v8v1i1.png"
+        width="500"
+        height="400"
+      />
+      <img
+        src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-14-pro-max-colors.png"
+        width="500"
+        height="400"
+      />
+    </div> -->
+  </body>
+</html>
