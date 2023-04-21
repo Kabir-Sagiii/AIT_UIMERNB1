@@ -1,0 +1,56 @@
+.container {
+  width: 500px;
+  height: 300px;
+  box-shadow: 0 0 10px black;
+  padding: 30px;
+  text-align: center;
+  margin: 30px auto;
+}
+#bgColor {
+  width: 300px;
+  margin: auto;
+  height: 200px;
+  background-color: blueviolet;
+}
+#bgImage {
+  width: 300px;
+  margin: auto;
+  height: 200px;
+  background-image: url("https://media.istockphoto.com/id/1353553203/photo/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-forest-trees-background.jpg?b=1&s=170667a&w=0&k=20&c=-jvR1WDwcloLXRgRTGeyG3frvrhPIbegdemeL6vY2Pk=");
+}
+#bgImageRepeat {
+  width: 1200px;
+  box-shadow: 0 0 10px red;
+  height: 1000px;
+  background-image: url("https://smaller-pictures.appspot.com/images/dreamstime_xxl_65780868_small.jpg");
+  background-repeat: repeat-y;
+}
+#bgImageSize {
+  width: 1000px;
+  box-shadow: 0 0 10px green;
+  height: 400px;
+  background-image: url("https://smaller-pictures.appspot.com/images/dreamstime_xxl_65780868_small.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#bgattachment {
+  width: 1000px;
+  box-shadow: 0 0 10px green;
+  height: 400px;
+  background-image: url("https://smaller-pictures.appspot.com/images/dreamstime_xxl_65780868_small.jpg");
+  background-attachment: fixed;
+}
+#bgposition {
+  width: 1200px;
+  box-shadow: 0 0 10px green;
+  height: 1000px;
+  background-image: url("https://smaller-pictures.appspot.com/images/dreamstime_xxl_65780868_small.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+#bg {
+  width: 800px;
+  box-shadow: 0 0 10px green;
+  height: 400px;
+  background: linear-gradient(45deg, black, darkred);
+}
