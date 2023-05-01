@@ -1,0 +1,38 @@
+.container {
+  width: 800px;
+  height: 400px;
+  box-shadow: 0 0 10px black;
+  display: grid;
+  grid-template-areas:
+    "item1 item1 item5"
+    "item1 item1 item5"
+    "item2 item6 item6"
+    "item3 item4 item4";
+}
+.box {
+  color: white;
+}
+.box1 {
+  background-color: darkred;
+  grid-area: item1;
+}
+.box2 {
+  background-color: rgb(58, 53, 13);
+  grid-area: item2;
+}
+.box3 {
+  background-color: rgb(26, 153, 54);
+  grid-area: item3;
+}
+.box4 {
+  background-color: rgb(22, 16, 119);
+  grid-area: item4;
+}
+.box5 {
+  background-color: rgb(184, 165, 165);
+  grid-area: item5;
+}
+.box6 {
+  background-color: rgb(139, 0, 125);
+  grid-area: item6;
+}
