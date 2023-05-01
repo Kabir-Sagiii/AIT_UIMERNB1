@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flexContainer {
+        margin: 100px auto;
+        width: 1000px;
+        height: 400px;
+        box-shadow: 0 0 10px red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      .box {
+        width: 70px;
+        height: 70px;
+        box-shadow: 0 0 10px black;
+      }
+      .box1 {
+        background-color: green;
+      }
+      .box2 {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexContainer">
+      <div class="box1 box">Flex 1</div>
+      <div class="box2 box">Flex 2</div>
+    </div>
+  </body>
+</html>
