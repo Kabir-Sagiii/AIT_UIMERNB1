@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        border: 15px solid red;
+      }
+      body {
+        height: 1500px;
+        border: 10px solid green;
+        margin: 30px;
+      }
+      .div {
+        width: 300px;
+        height: 40px;
+        border: 2px solid black;
+        margin: 50px;
+      }
+      /* .div2:hover {
+        position: relative;
+        left: 500px;
+        top: 300px;
+        right: 100px;
+        bottom: 800px;
+      } */
+      .div3 {
+        position: absolute;
+        top: 10px;
+        left: 400px;
+      }
+      .div4 {
+        width: 500px;
+        padding: 50px;
+        height: 500px;
+        position: relative;
+        /* right: 40px; */
+        margin: auto;
+      }
+      .div4-1 {
+        width: 300px;
+        height: 200px;
+        border: 3px solid blue;
+        position: relative;
+        top: 100px;
+        /* position: absolute;
+        right: 200px; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div">Div 1</div>
+    <div class="div2 div">Div 2</div>
+    <div class="div3 div">Div 3</div>
+
+    <div class="div4 div">
+      <div class="div4-1">div 4 - 1</div>
+    </div>
+
+    <!-- <div>Div 5</div> -->
+  </body>
+</html>

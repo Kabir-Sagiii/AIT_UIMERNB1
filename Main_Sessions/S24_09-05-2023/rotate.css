@@ -1,0 +1,27 @@
+.card {
+  width: 300px;
+  margin: 20px auto;
+  transform: rotate(90deg);
+  transition: 5s;
+}
+
+.card:hover {
+  transform: rotate(360deg);
+  transition: 3s;
+}
+.cardX {
+  width: 300px;
+  margin: 20px auto;
+}
+.cardX:hover {
+  transform: rotateX(180deg);
+  transition: 5s;
+}
+.cardY {
+  width: 300px;
+  margin: 20px auto;
+}
+.cardY:hover {
+  transform: rotateY(180deg);
+  transition: 5s;
+}
